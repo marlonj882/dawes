@@ -36,10 +36,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <form method="post" action="">
         <label for="usuario">Usuario:</label>
-        <input type="text" id="usuario" name="usuario">
+        <input type="text" id="usuario" name="usuario" value="<?php echo $usuario?>">
         
         <label for="contraseña">Contraseña:</label>
-        <input type="contraseña" id="contraseña" name="contraseña" required value="">
+        <input type="contraseña" id="contraseña" name="contraseña" required value="<?php echo $contraseña?>">
         
         <label>
             <input type="checkbox" id="recordarme" name="recordarme">
