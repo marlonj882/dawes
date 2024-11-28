@@ -80,7 +80,7 @@ if ($ProcesaFormulario && !$errorValidacion) {
     echo "nombre: ". $nombre . "<br>";
     echo "apellidos: ". $apellidos . "<br>";
 
-    echo    "<form method='post'>";
+    echo "<form method='post'>";
     echo "<input type='submit' value='volver' name = 'volver'>";
     echo "<form/>";
 
@@ -120,7 +120,7 @@ else{
     <br><br><br>
     
     <label for="apellidos">Apellidos</label>
-    <input type="text" name="apellidos" placeholder="Apellidos" value="<?php $apellidos; ?>">
+    <input type="text" name="apellidos" placeholder="Apellidos" value="<?php $apellidos;?>">
     <span>*<?php echo $apellidosError ?></span>
     <br><br><br>
 
